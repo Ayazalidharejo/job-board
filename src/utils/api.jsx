@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'https://backend-board.vercel.app',
+  baseURL: process.env.REACT_APP_API_URL || 'https://backend-board-fopn.vercel.app',
 });
 
 // Automatically attach token
